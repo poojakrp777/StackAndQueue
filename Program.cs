@@ -24,6 +24,12 @@ namespace StackAndQueue
             stackUsingLinkList.Display();
             stackUsingLinkList.IsEmpty();
             stackUsingLinkList.Display();
+
+            QueueLinkedList queueUsingLinkList = new QueueLinkedList();
+            queueUsingLinkList.Enqueue(56);
+            queueUsingLinkList.Enqueue(30);
+            queueUsingLinkList.Enqueue(70);
+            queueUsingLinkList.Display();
         }
     }
 }
