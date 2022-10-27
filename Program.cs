@@ -13,9 +13,16 @@ namespace StackAndQueue
             Console.WriteLine("Welcome to Stacks and Queues Programs");
 
             LinkedList stackUsingLinkList = new LinkedList();
-            stackUsingLinkList.push(70);
-            stackUsingLinkList.push(30);
-            stackUsingLinkList.push(56);
+            stackUsingLinkList.Push(70);
+            stackUsingLinkList.Push(30);
+            stackUsingLinkList.Push(56);
+            stackUsingLinkList.Display();
+
+            stackUsingLinkList.Peak();
+            stackUsingLinkList.Display();
+            stackUsingLinkList.POP();
+            stackUsingLinkList.Display();
+            stackUsingLinkList.IsEmpty();
             stackUsingLinkList.Display();
         }
     }
